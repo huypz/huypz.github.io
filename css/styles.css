@@ -17,12 +17,12 @@
 
 @keyframes dim-image {
     0% {
-        background-image: url("../images/banner.jpg");
+        background-image: url("../images/banner-compressed.jpg");
         opacity: 0;
     }
     100% {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6),
-          rgba(0, 0, 0, 0.6)), url("../images/banner.jpg");
+          rgba(0, 0, 0, 0.6)), url("../images/banner-compressed.jpg");
         opacity: 1;
     }
 }
@@ -265,7 +265,7 @@ p {
 .banner {
     width: 100%;
     min-height: calc(100vh - 110px);
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner-compressed.jpg");
     animation: dim-image 1000ms ease-in-out;
     animation-fill-mode: forwards; 
     background-attachment: fixed;
