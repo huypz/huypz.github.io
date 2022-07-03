@@ -295,11 +295,20 @@ p {
     max-width: 1200px;
     min-height: 128px;
     margin: 0 auto;
-    padding: 32px 0px 32px 0;
+    padding: 32px;
+}
+
+.footer a {
+    font-family: var(--major-font);
+}
+
+.footer span {
+    font-family: var(--minor-font);
 }
 
 .footer-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
